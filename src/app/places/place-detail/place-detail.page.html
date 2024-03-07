@@ -1,13 +1,38 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>place-detail</ion-title>
+    <ion-title>Place Detail</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">place-detail</ion-title>
+      <ion-title size="large">Place Detail</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <ion-card>
+    <ion-card-content
+      ><ion-img
+        src="https://miro.medium.com/v2/resize:fit:1200/0*QNkzFqnKdlZGsX7s.jpg"
+        alt="Black Sand Beach"
+      ></ion-img>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col>
+        <ion-text color="primary" class="centered-text">
+          <h1>Brunei Darussalam</h1>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-button>
+        <ion-icon slot="start" name="bookmark"></ion-icon>
+        Book
+      </ion-button>
+    </ion-row>
+  </ion-grid>
 </ion-content>
