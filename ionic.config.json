@@ -1,0 +1,7 @@
+{
+  "name": "bingus",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
