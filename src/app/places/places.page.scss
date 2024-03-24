@@ -1,0 +1,14 @@
+.moddedbtn {
+    color: #ffffff;
+    --background: #292f5b;
+    --border-radius: 30px;
+    padding: 0px;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+  
+.moddedbtn:hover {
+    transform: scale(1.1);
+}

@@ -8,13 +8,16 @@
   <ion-card>
     <ion-card-content
       ><ion-img
-        src="https://miro.medium.com/v2/resize:fit:1200/0*QNkzFqnKdlZGsX7s.jpg" alt="BLack Sand Beach"></ion-img>
+        src="https://miro.medium.com/v2/resize:fit:1200/0*QNkzFqnKdlZGsX7s.jpg"
+        alt="BLack Sand Beach"
+        style="width: 50%; height: auto; margin: 0 auto; display: block"
+      ></ion-img>
     </ion-card-content>
   </ion-card>
 
-  <ion-list>
-    <ion-item *ngFor="let place of places">
-      <ion-label>{{ place }}</ion-label>
-    </ion-item>
-  </ion-list>
+  <ion-item *ngFor="let place of places" class="ion-justify-content-center">
+    <ion-button class="moddedbtn" [routerLink]="['/place-detail']"
+      >{{ place }}</ion-button
+    >
+  </ion-item>
 </ion-content>
